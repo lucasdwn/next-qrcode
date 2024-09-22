@@ -15,7 +15,7 @@ const geistMono = localFont({
 
 export const metadata: Metadata = {
   title: "Gerar qrcode",
-  description: "Gerar qrcode de forma simples e segura.",
+  description: "Gerar qrcode de forma simples e rapida.",
 };
 
 export default function RootLayout({
