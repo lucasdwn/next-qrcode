@@ -91,7 +91,7 @@ export default function QRCodeGenerator() {
               <div className="flex justify-center">
                 <canvas ref={qrRef} className="hidden" />
                 {qrCode && (
-                  <img src={qrCode} alt="QR Code" className="w-48 h-48 bg-white p-2" width={500} height={300}/>
+                  <img src={qrCode} alt="QR Code" className="w-48 h-48 bg-white p-2"/>
                 )}
               </div>
             </CardContent>
